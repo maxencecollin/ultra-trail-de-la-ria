@@ -1,0 +1,251 @@
+/* ==========================================================================
+   Ultra Trail de la Ria d'Étel - Styles principaux
+   ========================================================================== */
+
+/* Variables CSS */
+:root {
+    --color-primary: #1a5f2a;
+    --color-secondary: #2d8a4e;
+    --color-accent: #f4a261;
+    --color-dark: #1a1a2e;
+    --color-light: #f8f9fa;
+    --color-text: #333333;
+    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-heading: Georgia, 'Times New Roman', serif;
+}
+
+/* Reset et base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--color-text);
+    line-height: 1.6;
+}
+
+/* Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: var(--color-dark);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo a {
+    color: var(--color-light);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: var(--font-heading);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links a {
+    color: var(--color-light);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: var(--color-accent);
+}
+
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.burger-menu span {
+    width: 25px;
+    height: 3px;
+    background-color: var(--color-light);
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url('../images/hero-bg.jpg') center/cover no-repeat;
+    background-color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-light);
+}
+
+.hero-content h1 {
+    font-family: var(--font-heading);
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-content .date {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--color-accent);
+    margin-bottom: 0.5rem;
+}
+
+.hero-content .tagline {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+/* Boutons */
+.btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-primary {
+    background-color: var(--color-accent);
+    color: var(--color-dark);
+}
+
+.btn-primary:hover {
+    background-color: #e76f51;
+    transform: translateY(-2px);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--color-primary);
+    border: 2px solid var(--color-primary);
+}
+
+.btn-secondary:hover {
+    background-color: var(--color-primary);
+    color: var(--color-light);
+}
+
+/* Sections */
+section {
+    padding: 5rem 10%;
+}
+
+section h2 {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: var(--color-primary);
+}
+
+/* Courses */
+.races {
+    background-color: var(--color-light);
+}
+
+.races-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.race-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.race-card h3 {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    color: var(--color-primary);
+    margin-bottom: 1.5rem;
+}
+
+.race-card ul {
+    list-style: none;
+    margin-bottom: 1.5rem;
+}
+
+.race-card li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+/* About */
+.about {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about p {
+    font-size: 1.2rem;
+}
+
+/* Footer */
+footer {
+    background-color: var(--color-dark);
+    color: var(--color-light);
+    text-align: center;
+    padding: 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--color-dark);
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .burger-menu {
+        display: flex;
+    }
+
+    .hero-content h1 {
+        font-size: 2.2rem;
+    }
+
+    .hero-content .date {
+        font-size: 1.4rem;
+    }
+
+    section {
+        padding: 3rem 5%;
+    }
+}
