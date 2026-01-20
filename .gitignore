@@ -1,6 +1,19 @@
 # OS
 .DS_Store
 Thumbs.db
+**/.DS_Store
+
+# Fichiers originaux volumineux (garder uniquement les versions optimisées)
+images/*.HEIC
+images/HODM5670.JPG
+images/IEAP5443.JPG
+images/XBGL5940.JPG
+images/XGXK9412.JPG
+images/IMG_*.HEIC
+images/Video_drone/FHQE1041.MP4
+images/Video_drone/MEYU5909.MP4
+images/Video_drone/SMEM4744.MP4
+images/Video_drone/XEHB3436.MP4
 
 # IDE
 .vscode/
