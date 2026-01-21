@@ -3,7 +3,7 @@ import { courses, materielObligatoire, eventInfo } from "@/data/courses";
 
 export const metadata = {
   title: "Infos Pratiques - Ultra Trail de la Ria",
-  description: "Toutes les informations pratiques pour l'Ultra Trail de la Ria d'Etel 2027",
+  description: "Toutes les informations pratiques pour l&#39;Ultra Trail de la Ria d&#39;Etel 2027",
 };
 
 export default function InfosPratiquesPage() {
@@ -15,7 +15,7 @@ export default function InfosPratiquesPage() {
           Infos Pratiques
         </h1>
         <p className="text-center text-gray-600 mt-4 max-w-2xl mx-auto">
-          Tout ce que vous devez savoir pour preparer votre participation a l'Ultra Trail de la Ria.
+          Tout ce que vous devez savoir pour preparer votre participation a l&#39;Ultra Trail de la Ria.
         </p>
       </section>
 
@@ -61,8 +61,8 @@ export default function InfosPratiquesPage() {
           </div>
           <div className="mt-8 bg-yellow-50 border-l-4 border-yellow-400 p-4 rounded">
             <p className="text-yellow-800">
-              <strong>Important :</strong> Une piece d'identite est obligatoire pour le retrait du dossard.
-              Le retrait par un tiers n'est pas autorise.
+              <strong>Important :</strong> Une piece d&#39;identite est obligatoire pour le retrait du dossard.
+              Le retrait par un tiers n&#39;est pas autorise.
             </p>
           </div>
         </div>
@@ -99,7 +99,7 @@ export default function InfosPratiquesPage() {
           </div>
           <div className="mt-8 bg-red-50 border-l-4 border-red-400 p-4 rounded">
             <p className="text-red-800">
-              <strong>Attention :</strong> Le materiel obligatoire sera controle au depart et peut faire l'objet
+              <strong>Attention :</strong> Le materiel obligatoire sera controle au depart et peut faire l&#39;objet
               de controles inopines sur le parcours. Tout coureur sans son materiel complet sera disqualifie.
             </p>
           </div>
@@ -158,18 +158,18 @@ export default function InfosPratiquesPage() {
                 <h3 className="font-bold text-gray-900 mb-2">Barrieres horaires</h3>
                 <p className="text-gray-600">
                   Des barrieres horaires sont placees sur le parcours. Tout coureur arrivant apres l'heure
-                  limite sera arrete et pris en charge par l'organisation pour etre ramene a l'arrivee.
+                  limite sera arrete et pris en charge par l&#39;organisation pour etre ramene a l&#39;arrivee.
                 </p>
               </div>
               <div>
                 <h3 className="font-bold text-gray-900 mb-2">Abandon</h3>
                 <p className="text-gray-600">
-                  En cas d'abandon, le coureur doit imperativement signaler son abandon a un benevole
-                  ou appeler le numero d'urgence fourni. Le dossard doit etre rendu a l'organisation.
+                  En cas d&#39;abandon, le coureur doit imperativement signaler son abandon a un benevole
+                  ou appeler le numero d&#39;urgence fourni. Le dossard doit etre rendu a l&#39;organisation.
                 </p>
               </div>
               <div>
-                <h3 className="font-bold text-gray-900 mb-2">Respect de l'environnement</h3>
+                <h3 className="font-bold text-gray-900 mb-2">Respect de l&#39;environnement</h3>
                 <p className="text-gray-600">
                   Le parcours traverse des zones naturelles protegees. Il est interdit de jeter des dechets
                   sur le parcours. Les contrevenants seront disqualifies.
@@ -213,7 +213,7 @@ export default function InfosPratiquesPage() {
             <h3 className="font-bold text-gray-900 mb-4 text-lg">Hebergements</h3>
             <p className="text-gray-600 mb-4">
               De nombreux hebergements sont disponibles dans les communes du parcours :
-              hotels, gites, campings. Nous vous recommandons de reserver a l'avance.
+              hotels, gites, campings. Nous vous recommandons de reserver a l&#39;avance.
             </p>
             <p className="text-gray-600">
               L'Office de Tourisme d'Auray Quiberon Terre Atlantique peut vous aider
@@ -226,7 +226,7 @@ export default function InfosPratiquesPage() {
       {/* Contact CTA */}
       <section className="py-16 px-[5%] bg-gradient-to-br from-gray-900 to-gray-800 text-center">
         <h2 className="text-3xl font-black text-white uppercase tracking-wider mb-4">
-          Besoin d'informations supplementaires ?
+          Besoin d&#39;informations supplementaires ?
         </h2>
         <p className="text-gray-300 mb-8 max-w-xl mx-auto">
           Notre equipe est a votre disposition pour repondre a toutes vos questions.

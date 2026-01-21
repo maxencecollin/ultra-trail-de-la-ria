@@ -3,7 +3,7 @@ import { courses } from "@/data/courses";
 
 export const metadata = {
   title: "Les Courses - Ultra Trail de la Ria",
-  description: "Decouvrez les 3 epreuves de l'Ultra Trail de la Ria d'Etel : 80km, Relais et 30km",
+  description: "Decouvrez les 3 epreuves de l&#39;Ultra Trail de la Ria d&#39;Etel : 80km, Relais et 30km",
 };
 
 export default function CoursesPage() {
@@ -62,9 +62,9 @@ export default function CoursesPage() {
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <h3 className="font-bold text-gray-900 mb-3">Securite</h3>
               <p className="text-gray-600 text-sm">
-                Une equipe medicale est presente sur l'ensemble du parcours.
+                Une equipe medicale est presente sur l&#39;ensemble du parcours.
                 Des points de controle permettent de suivre votre progression.
-                En cas de probleme, appelez le numero d'urgence fourni au depart.
+                En cas de probleme, appelez le numero d&#39;urgence fourni au depart.
               </p>
             </div>
           </div>

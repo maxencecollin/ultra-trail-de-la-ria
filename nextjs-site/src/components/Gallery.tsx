@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const images = [
   { src: "/images/HODM5670-web.jpg", alt: "Vue aerienne de Saint-Cado et la maison de Nichtarguer" },
-  { src: "/images/IEAP5443-web.jpg", alt: "Panorama de la Ria d'Etel" },
+  { src: "/images/IEAP5443-web.jpg", alt: "Panorama de la Ria d&#39;Etel" },
   { src: "/images/XBGL5940-web.jpg", alt: "Le port et la ria" },
   { src: "/images/XGXK9412-web.jpg", alt: "Vue sur Saint-Cado" },
 ];

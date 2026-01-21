@@ -5,7 +5,7 @@ import ElevationProfile from "@/components/ElevationProfile";
 
 export const metadata = {
   title: "Parcours - Ultra Trail de la Ria",
-  description: "Decouvrez les parcours de l'Ultra Trail de la Ria d'Etel avec cartes interactives et profils altimetriques",
+  description: "Decouvrez les parcours de l&#39;Ultra Trail de la Ria d&#39;Etel avec cartes interactives et profils altimetriques",
 };
 
 export default function ParcoursPage() {

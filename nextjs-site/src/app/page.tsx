@@ -21,7 +21,7 @@ export default function Home() {
             L'Ultra Trail de la Ria
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
-            Vivez une experience unique au coeur de la <strong>Ria d'Etel</strong>,
+            Vivez une experience unique au coeur de la <strong>Ria d&#39;Etel</strong>,
             l'un des plus beaux sites naturels de Bretagne. Parcourez des sentiers
             sauvages entre terre et mer, traversez des villages de caractere et
             admirez la celebre <strong>maison de Nichtarguer</strong> sur son ilot.
@@ -70,7 +70,7 @@ export default function Home() {
             <p className="text-gray-600 text-sm mb-2">
               <strong>Salle Emeraude</strong><br />Locoal-Mendon
             </p>
-            <p className="text-gray-500 text-sm">Piece d'identite obligatoire</p>
+            <p className="text-gray-500 text-sm">Piece d&#39;identite obligatoire</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-sm">
             <h3 className="font-bold text-gray-900 mb-3">Inscriptions</h3>

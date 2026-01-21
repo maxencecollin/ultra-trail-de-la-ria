@@ -3,7 +3,7 @@ import { courses, eventInfo } from "@/data/courses";
 
 export const metadata = {
   title: "Inscription - Ultra Trail de la Ria",
-  description: "Inscrivez-vous a l'Ultra Trail de la Ria d'Etel 2027 - 80km, Relais et 30km",
+  description: "Inscrivez-vous a l&#39;Ultra Trail de la Ria d&#39;Etel 2027 - 80km, Relais et 30km",
 };
 
 export default function InscriptionPage() {
@@ -15,7 +15,7 @@ export default function InscriptionPage() {
           Inscription
         </h1>
         <p className="text-xl opacity-90 max-w-2xl mx-auto">
-          Rejoignez l'aventure Ultra Trail de la Ria le {eventInfo.date}
+          Rejoignez l&#39;aventure Ultra Trail de la Ria le {eventInfo.date}
         </p>
       </section>
 
@@ -77,7 +77,7 @@ export default function InscriptionPage() {
                     <svg className="w-4 h-4 text-green-500" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
                     </svg>
-                    Repas d'arrivee
+                    Repas d&#39;arrivee
                   </li>
                   {course.id !== "trail-30" && (
                     <li className="flex items-center gap-2">
@@ -104,7 +104,7 @@ export default function InscriptionPage() {
       <section className="py-16 px-[5%] bg-gray-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl font-black text-gray-900 uppercase tracking-wider mb-12 text-center">
-            Procedure d'inscription
+            Procedure d&#39;inscription
           </h2>
           <div className="grid md:grid-cols-4 gap-6">
             <div className="text-center">
@@ -113,7 +113,7 @@ export default function InscriptionPage() {
               </div>
               <h3 className="font-bold text-gray-900 mb-2">Creer un compte</h3>
               <p className="text-sm text-gray-600">
-                Inscrivez-vous sur la plateforme Klikego si ce n'est pas deja fait
+                Inscrivez-vous sur la plateforme Klikego si ce n&#39;est pas deja fait
               </p>
             </div>
             <div className="text-center">
@@ -122,7 +122,7 @@ export default function InscriptionPage() {
               </div>
               <h3 className="font-bold text-gray-900 mb-2">Choisir votre course</h3>
               <p className="text-sm text-gray-600">
-                Selectionnez l'epreuve qui vous correspond parmi nos 3 formats
+                Selectionnez l&#39;epreuve qui vous correspond parmi nos 3 formats
               </p>
             </div>
             <div className="text-center">
@@ -158,16 +158,16 @@ export default function InscriptionPage() {
               <h3 className="font-bold text-gray-900 mb-4 text-lg">Certificat medical</h3>
               <p className="text-gray-600 mb-4">
                 Un certificat medical de non contre-indication a la pratique de la course a pied
-                en competition, datant de moins d'un an au jour de la course.
+                en competition, datant de moins d&#39;un an au jour de la course.
               </p>
               <p className="text-sm text-gray-500">
-                Le certificat doit mentionner explicitement "course a pied en competition" ou "trail".
+                Le certificat doit mentionner explicitement &quot;course a pied en competition&quot; ou &quot;trail&quot;.
               </p>
             </div>
             <div className="bg-gray-50 p-6 rounded-lg">
               <h3 className="font-bold text-gray-900 mb-4 text-lg">OU Licence FFA</h3>
               <p className="text-gray-600 mb-4">
-                Une licence FFA (Federation Francaise d'Athletisme) ou licence d'une federation
+                Une licence FFA (Federation Francaise d'Athletisme) ou licence d&#39;une federation
                 affiliee a l'IAAF en cours de validite.
               </p>
               <p className="text-sm text-gray-500">
@@ -189,13 +189,13 @@ export default function InscriptionPage() {
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-cyan-500 rounded-full mt-2 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  <strong>Jusqu'au 31 mars 2027 :</strong> Remboursement a 80% du montant de l'inscription
+                  <strong>Jusqu'au 31 mars 2027 :</strong> Remboursement a 80% du montant de l&#39;inscription
                 </p>
               </li>
               <li className="flex items-start gap-3">
                 <span className="w-2 h-2 bg-cyan-500 rounded-full mt-2 flex-shrink-0"></span>
                 <p className="text-gray-700">
-                  <strong>Du 1er avril au 30 avril 2027 :</strong> Remboursement a 50% du montant de l'inscription
+                  <strong>Du 1er avril au 30 avril 2027 :</strong> Remboursement a 50% du montant de l&#39;inscription
                 </p>
               </li>
               <li className="flex items-start gap-3">
@@ -206,7 +206,7 @@ export default function InscriptionPage() {
               </li>
             </ul>
             <p className="mt-6 text-sm text-gray-500">
-              En cas d'annulation de l'evenement par l'organisateur, l'integralite des inscriptions sera remboursee.
+              En cas d&#39;annulation de l&#39;evenement par l&#39;organisateur, l&#39;integralite des inscriptions sera remboursee.
             </p>
           </div>
         </div>

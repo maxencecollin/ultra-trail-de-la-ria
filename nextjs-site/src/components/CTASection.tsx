@@ -8,13 +8,13 @@ export default function CTASection() {
         Pret a relever le defi ?
       </h2>
       <p className="text-gray-300 text-lg mb-8 max-w-xl mx-auto">
-        Rejoignez-nous le {eventInfo.date} pour une aventure inoubliable autour de la Ria d'Etel.
+        Rejoignez-nous le {eventInfo.date} pour une aventure inoubliable autour de la Ria d&#39;Etel.
       </p>
       <Link
         href="/inscription"
         className="inline-block bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-4 px-10 rounded text-lg transition-all btn-transition"
       >
-        S'inscrire maintenant
+        S&#39;inscrire maintenant
       </Link>
     </section>
   );

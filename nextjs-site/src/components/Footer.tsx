@@ -70,7 +70,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="border-t border-gray-800 pt-6 text-center">
           <p className="text-gray-500 text-sm">
-            2027 Ultra Trail de la Ria d'Etel - Tous droits reserves
+            2027 Ultra Trail de la Ria d&#39;Etel - Tous droits reserves
           </p>
         </div>
       </div>

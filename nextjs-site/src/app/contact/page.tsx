@@ -96,7 +96,7 @@ export default function ContactPage() {
                     </svg>
                   </div>
                   <div>
-                    <h3 className="font-bold text-gray-900">Date de l'evenement</h3>
+                    <h3 className="font-bold text-gray-900">Date de l&#39;evenement</h3>
                     <p className="text-gray-600">{eventInfo.date}</p>
                   </div>
                 </div>
@@ -188,7 +188,7 @@ export default function ContactPage() {
                       className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-cyan-500 focus:border-cyan-500 outline-none transition-colors"
                     >
                       <option value="">Selectionnez un sujet</option>
-                      <option value="inscription">Question sur l'inscription</option>
+                      <option value="inscription">Question sur l&#39;inscription</option>
                       <option value="parcours">Question sur le parcours</option>
                       <option value="benevole">Devenir benevole</option>
                       <option value="partenariat">Partenariat / Sponsoring</option>

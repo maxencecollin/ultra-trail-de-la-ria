@@ -212,7 +212,7 @@ export default async function CoursePage({ params }: CoursePageProps) {
       <section className="py-12 px-[5%] bg-gray-100">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-2xl font-black text-gray-900 uppercase tracking-wider mb-8 text-center">
-            Conditions d'inscription
+            Conditions d&#39;inscription
           </h2>
           <div className="bg-white p-6 rounded-lg shadow-sm">
             <ul className="space-y-3">
@@ -235,13 +235,13 @@ export default async function CoursePage({ params }: CoursePageProps) {
           Pret pour le {course.name} ?
         </h2>
         <p className="text-gray-300 mb-8 max-w-xl mx-auto">
-          Inscrivez-vous des maintenant et rejoignez l'aventure Ultra Trail de la Ria.
+          Inscrivez-vous des maintenant et rejoignez l&#39;aventure Ultra Trail de la Ria.
         </p>
         <Link
           href="/inscription"
           className="inline-block bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-4 px-10 rounded text-lg transition-all btn-transition"
         >
-          S'inscrire au {course.name}
+          S&#39;inscrire au {course.name}
         </Link>
       </section>
     </div>

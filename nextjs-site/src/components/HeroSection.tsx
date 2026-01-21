@@ -39,7 +39,7 @@ export default function HeroSection() {
           href="/inscription"
           className="inline-block bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-3 px-8 rounded transition-all btn-transition"
         >
-          S'inscrire
+          S&#39;inscrire
         </Link>
       </div>
 
