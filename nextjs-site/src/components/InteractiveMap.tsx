@@ -180,11 +180,11 @@ export default function InteractiveMap({ tracks, className = '' }: InteractiveMa
         zoom={11}
         className="w-full h-full"
         scrollWheelZoom={true}
-        style={{ background: '#0f2942' }}
+        style={{ background: '#f5f5f5' }}
       >
         <TileLayer
           attribution='&copy; <a href="https://carto.com/">CARTO</a>'
-          url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
+          url="https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png"
         />
 
         <MapBoundsUpdater tracksData={tracksData} />
@@ -235,8 +235,8 @@ export default function InteractiveMap({ tracks, className = '' }: InteractiveMa
 
       {/* Legend */}
       {tracksData.length > 0 && (
-        <div className="absolute bottom-4 left-4 bg-ocean-900/90 backdrop-blur-sm rounded-lg p-3 z-[1000]">
-          <p className="text-xs text-ocean-300 mb-2 font-semibold">Legende</p>
+        <div className="absolute bottom-4 left-4 bg-white/95 backdrop-blur-sm rounded-lg p-3 z-[1000] shadow-lg border border-gray-200">
+          <p className="text-xs text-gray-500 mb-2 font-semibold">Legende</p>
           <div className="space-y-1">
             {tracksData.map(({ track }) => (
               <div key={track.id} className="flex items-center gap-2 text-xs">
@@ -244,7 +244,7 @@ export default function InteractiveMap({ tracks, className = '' }: InteractiveMa
                   className="w-4 h-1 rounded"
                   style={{ backgroundColor: track.color }}
                 />
-                <span className="text-white">{track.name}</span>
+                <span className="text-gray-700">{track.name}</span>
               </div>
             ))}
           </div>
