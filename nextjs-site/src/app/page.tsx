@@ -4,7 +4,6 @@ import { useRef } from 'react'
 import HeroSection from '@/components/HeroSection'
 import RaceExplorer, { type RaceExplorerHandle } from '@/components/RaceExplorer'
 import EspritRiaSection from '@/components/EspritRiaSection'
-import Footer from '@/components/Footer'
 
 export default function Home() {
   const raceExplorerRef = useRef<RaceExplorerHandle>(null)
@@ -18,7 +17,6 @@ export default function Home() {
       <HeroSection onRaceSelect={handleRaceSelect} />
       <RaceExplorer ref={raceExplorerRef} />
       <EspritRiaSection />
-      <Footer />
     </main>
   )
 }

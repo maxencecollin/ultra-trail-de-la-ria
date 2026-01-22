@@ -1,19 +1,19 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 import { EVENT_DATE } from '@/data/races'
 
 const links = {
   courses: [
-    { label: 'Ultra 80km', href: '#explorer' },
-    { label: 'Relais Duo', href: '#explorer' },
-    { label: 'Le 30km', href: '#explorer' },
+    { label: 'Ultra 80km', href: '/epreuves' },
+    { label: 'Relais Duo', href: '/epreuves' },
+    { label: 'Le 30km', href: '/epreuves' },
   ],
   infos: [
-    { label: 'Reglement', href: '#' },
-    { label: 'Parcours GPX', href: '#' },
-    { label: 'Hebergements', href: '#' },
-    { label: 'Acces', href: '#' },
+    { label: 'Reglement', href: '/infos-pratiques' },
+    { label: 'Parcours GPX', href: '/epreuves' },
+    { label: 'Infos Pratiques', href: '/infos-pratiques' },
   ],
   legal: [
     { label: 'Mentions legales', href: '#' },
@@ -93,12 +93,12 @@ export default function Footer() {
             <ul className="space-y-3">
               {links.courses.map((link) => (
                 <li key={link.label}>
-                  <a
+                  <Link
                     href={link.href}
                     className="text-ocean-400 hover:text-white transition-colors"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -110,12 +110,12 @@ export default function Footer() {
             <ul className="space-y-3">
               {links.infos.map((link) => (
                 <li key={link.label}>
-                  <a
+                  <Link
                     href={link.href}
                     className="text-ocean-400 hover:text-white transition-colors"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -127,12 +127,12 @@ export default function Footer() {
             <ul className="space-y-3">
               {links.legal.map((link) => (
                 <li key={link.label}>
-                  <a
+                  <Link
                     href={link.href}
                     className="text-ocean-400 hover:text-white transition-colors"
                   >
                     {link.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>

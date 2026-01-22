@@ -1,5 +1,7 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import Header from '@/components/Header'
+import Footer from '@/components/Footer'
 
 export const metadata: Metadata = {
   title: 'Ultra Trail de la Ria | 23 Mai 2027',
@@ -35,7 +37,9 @@ export default function RootLayout({
         />
       </head>
       <body className="antialiased">
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
