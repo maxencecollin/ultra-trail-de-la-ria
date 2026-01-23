@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
+import { getAssetPath } from '@/lib/utils'
 
 const navLinks = [
   { label: 'Accueil', href: '/' },
@@ -37,7 +38,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
             <Image
-              src="/images/logo.png"
+              src={getAssetPath('/images/logo.png')}
               alt="UTR"
               width={40}
               height={47}

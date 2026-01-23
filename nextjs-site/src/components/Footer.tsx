@@ -3,6 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { EVENT_DATE } from '@/data/races'
+import { getAssetPath } from '@/lib/utils'
 
 const links = {
   courses: [
@@ -61,7 +62,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <Image
-              src="/images/logo-white.png"
+              src={getAssetPath('/images/logo-white.png')}
               alt="Ultra Trail de la Ria"
               width={120}
               height={140}
