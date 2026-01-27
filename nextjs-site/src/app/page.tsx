@@ -14,8 +14,8 @@ export default function Home() {
       {/* Photo paysage */}
       <section className="relative h-[50vh] md:h-[60vh]">
         <Image
-          src={getAssetPath('/images/XBGL5940-web.jpg')}
-          alt="Sentier côtier de la Ria d'Étel"
+          src={getAssetPath('/images/hero-bg.jpg')}
+          alt="Paysage de la Ria d'Étel"
           fill
           className="object-cover"
         />
