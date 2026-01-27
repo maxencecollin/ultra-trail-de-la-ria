@@ -31,10 +31,10 @@ const navLinks: NavLink[] = [
   },
   { label: 'Environnement', href: '/environnement' },
   {
-    label: 'Infos Pratiques',
+    label: 'Infos',
     href: '/infos-pratiques',
     submenu: [
-      { label: 'Infos Pratiques', href: '/infos-pratiques' },
+      { label: 'Guide Coureur', href: '/infos-pratiques' },
       { label: 'Règlement', href: '/docs/Reglement_Ultra_Trail_Ria_2027.pdf', external: true },
       { label: 'Résultats', href: '/resultats' },
     ],

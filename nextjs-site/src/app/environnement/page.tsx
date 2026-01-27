@@ -297,7 +297,9 @@ export default function Environnement() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a
-                href="/infos-pratiques"
+                href={getAssetPath('/docs/Reglement_Ultra_Trail_Ria_2027.pdf')}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-6 py-3 bg-white text-ria-600 font-semibold rounded-lg hover:bg-ria-50 transition-colors"
               >
                 Voir le règlement complet

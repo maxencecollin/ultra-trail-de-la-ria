@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import PageHeader from '@/components/PageHeader'
+import { getAssetPath } from '@/lib/utils'
 
 export default function CGV() {
   return (
@@ -40,7 +41,7 @@ export default function CGV() {
               Règlement de l'épreuve
             </h2>
             <p className="text-dark-600 mb-8">
-              En vous inscrivant à l'Ultra Trail de la Ria, vous vous engagez également à respecter le règlement de l'épreuve disponible sur la page <a href="/infos-pratiques" className="text-ria-500 hover:text-ria-600">Infos pratiques</a>.
+              En vous inscrivant à l'Ultra Trail de la Ria, vous vous engagez également à respecter le <a href={getAssetPath('/docs/Reglement_Ultra_Trail_Ria_2027.pdf')} target="_blank" rel="noopener noreferrer" className="text-ria-500 hover:text-ria-600">règlement de l'épreuve</a>.
             </p>
 
             <h2 className="text-2xl font-display font-bold text-dark-900 mb-4">
