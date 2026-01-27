@@ -30,8 +30,9 @@ const navLinks: NavLink[] = [
     ],
   },
   { label: 'Environnement', href: '/environnement' },
+  { label: 'Bénévoles', href: '/benevoles' },
   {
-    label: 'Infos',
+    label: 'Infos Pratiques',
     href: '/infos-pratiques',
     submenu: [
       { label: 'Guide Coureur', href: '/infos-pratiques' },
